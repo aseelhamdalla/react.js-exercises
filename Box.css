@@ -1,0 +1,117 @@
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10 {
+  background-color: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  /* height: 200px; */
+  max-height: 35vh;
+  -webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+}
+
+.box {
+  margin: 20px;
+  text-align: center;
+  /* background-color:rgb(70, 52, 87)!important; */
+}
+.card-header-cont{
+    display: flex;
+    flex-direction: column;
+}
+.card-cont{
+
+    background-color: rgb(136, 49, 136) !important;
+    height: 120px;
+    overflow: hidden;
+}
+a.Edit {
+    text-align: right;
+    padding: 10px;
+    color: black;
+  font-size: x-large;
+  }
+  
+
+a.youtube {
+    padding:10px;
+  font-size: x-large;
+    color: #eb3223;
+  }
+  
+  a.facebook {
+    padding: 10px;
+font-size: x-large;
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    padding: 10px;
+    font-size: x-large;
+
+    color: #49a1eb;
+  }
+  
+  a.instagram {
+    padding: 10px;
+    font-size: x-large;
+
+
+    color: black;
+  }
+/* .img {
+
+        width: 100%;
+        height: auto;
+        margin: 2vw auto;
+        padding: 0rem;
+        background-color: rgb(11, 38, 90);
+        border-radius: 50%;
+      } */
+    
+    
+
+.grid {
+    
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.grid > div {
+  flex-basis: calc(50% - 40px);
+}
+
+.boxy {
+  width: 300px;
+  background: green;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.boxy:hover {
+  animation: boxyRotation 4s infinite linear;
+}
+
+@keyframes boxyRotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.black-background {
+  background-color: red !important;
+  font-size: 5vh;
+  border-radius: 10px 10px 10px 10px;
+}
